@@ -25,7 +25,7 @@
             </div>
         </li> -->
         <li class="nav-item">
-            <a class="nav-link" href="index.php">
+            <a class="nav-link" href="../dashboard">
                 <i class="mdi mdi-shield-check menu-icon"></i>
                 <span class="menu-title">Dashboard</span>
             </a>
@@ -123,24 +123,24 @@
             </a>
             <div class="collapse" id="ui-Locations">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="#"> Countries </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#"> States </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#"> Districts </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#"> Cities </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#"> Locations </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="../locations/countries.php"> Countries </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="../locations/states.php"> States </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="../locations/districts.php"> Districts </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="../locations/cities.php"> Cities </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="../locations/locations.php"> Locations </a></li>
                 </ul>
             </div>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="../accident_types/accident_types.php">
                 <i class="mdi mdi-link-variant-off menu-icon"></i>
                 <span class="menu-title">Accident Types</span>
             </a>
         </li>
         
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="../roles/roles.php">
                 <i class="mdi mdi-shield-check menu-icon"></i>
                 <span class="menu-title">Roles</span>
             </a>

@@ -11,11 +11,20 @@
   <link rel="stylesheet" href="../assets/vendors/base/vendor.bundle.base.css">
   <!-- endinject -->
   <!-- plugin css for this page -->
+  <link rel="stylesheet" href="../assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="../assets/vendors/select2/select2.min.css">
+  <link rel="stylesheet" href="../assets/vendors/select2-bootstrap-theme/select2-bootstrap.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <link rel="stylesheet" href="../assets/css/vertical-layout-light/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="../assets/images/favicon.png" />
+  <style>
+    .select2-selection__arrow b{
+      left: 0% !important;
+      top: 80% !important;
+    }
+  </style>
 </head>
 <body class="sidebar-fixed">
   <div class="container-scroller">

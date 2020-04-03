@@ -34,6 +34,17 @@
   <!-- Custom js for this page-->
   <script src="../assets/js/dashboard.js"></script>
   <!-- End custom js for this page-->
+  <script src="../assets/vendors/datatables.net/jquery.dataTables.js"></script>
+  <script src="../assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+  <script src="../assets/vendors/select2/select2.min.js"></script>
+  <script src="../assets/js/data-table.js"></script>
+  <script src="../assets/js/tooltips.js"></script>
+  <script src="../assets/js/select2.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".select2").select2();
+    });
+  </script>
 </body>
 
 </html>
