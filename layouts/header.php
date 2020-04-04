@@ -24,6 +24,9 @@
       left: 0% !important;
       top: 80% !important;
     }
+    .form-control{
+      padding: 0.7rem 0.875rem !important;
+    }
   </style>
 </head>
 <body class="sidebar-fixed">
