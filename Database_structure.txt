@@ -1,0 +1,66 @@
+********************
+* Database Design  *
+********************
+# Master Data :
+
+Tables : 
+    esl_roles               :=   id, Name, status, created, updated
+    esl_countries           :=   id, Name, status, created, updated
+    esl_states              :=   id, country_id, Name, status, created, updated
+    esl_districts           :=   id, country_id, state_id, Name, status, created, updated
+    esl_cities              :=   id, country_id, state_id, district_id, Name, status, created, updated
+    esl_locations           :=   id, country_id, state_id, district_id, city_id, Name, Pincode status, created, updated
+    esl_accident_types      :=   id, Name, status, created, updated
+    esl_hospital_types      :=   id, Name, status, created, updated
+    esl_blood_groups        :=   id, Name, short_code, status, created, updated
+    esl_blood_bank_types    :=   id, Name, status, created, updated
+    esl_charity_types       :=   id, Name, status, created, updated
+    esl_donation_types      :=   id, Name, status, created, updated
+    esl_ambulance_types     :=   id, Name, status, created, updated 
+
+# User Management :
+
+Tables :
+    esl_users               :=  id, First_name, Last_name, Mobile, Mail_id, blood_group, password, user_type, status, created, updated
+
+
+# Hospital Management :
+
+Tables :             
+    esl_hospitals           :=  id, Hid, Name, Mobile, phone, mail_id, country_id, state_id, district_id, city_id, location, Pincode, latitude, longitude, status, 				created, updated
+    esl_hospitals_specials  :=  id, hostpital_id, Name, status, created, updated
+    esl_doctors             :=  id, First_name, Last_name, Mobile, Mail_id, working_timings, country_id, state_id, district_id, city_id, location, Pincode,                                 		status, created, updated
+
+# Ambulance Management
+
+Tables : 
+    esl_ambulances          :=  id, Name, ambulance_type, Registration_id, country_id, state_id, district_id, city_id, location, Pincode, latitude, longitude,                              		status, created, updated
+    esl_ambulance_links     :=  id, hostpital_id, Name, status, created, updated
+
+# Blood Bank management
+
+Tables : 
+    esl_blood_banks         :=  id, Name, Mobile, phone, mail_id, country_id, state_id, district_id, city_id, location, Pincode, latitude, longitude, status,                               		created, updated
+    esl_donors_registration :=  id, Name, blood_group, Mobile, phone, mail_id, country_id, state_id, district_id, city_id, location, Pincode, Donate_date,                                  		status, created, updated
+    esl_donors_history      :=  id, donor_id, donate_date, blood_bank_id, status, created, updated
+
+# User Post Management
+
+Tables : 
+    esl_posts               :=  id, title, mini_note, post_content, image, post_by, post_status, status, created, updated
+    esl_post_comment        :=  id, post_id, comment_message, status, created, updated
+
+# Donations Magement
+
+Tables :
+    esl_charity             :=  id, Charity_type, Name, Mobile, phone, mail_id, country_id, state_id, district_id, city_id, location, Pincode, latitude,                                    		longitude, status, created, updated
+    esl_charity_donors      :=  id, donor_id, Name, donation_type, Charity_id, status, created, updated
+
+
+
+Extra 
+-----
+full app voice assest
+Fire Emg
+human safity - acest
+articals or blog posts
