@@ -3,7 +3,7 @@
 ********************
 # Master Data :
 
-Tables : 
+Tables Master data: 
     esl_roles               :=   id, Name, status, created, updated
     esl_countries           :=   id, Name, status, created, updated
     esl_states              :=   id, country_id, Name, status, created, updated
@@ -18,7 +18,7 @@ Tables :
     esl_donation_types      :=   id, Name, status, created, updated
     esl_ambulance_types     :=   id, Name, status, created, updated 
 
-# User Management :
+# App Users :
 
 Tables :
     esl_users               :=  id, First_name, Last_name, Mobile, Mail_id, blood_group, password, user_type, status, created, updated

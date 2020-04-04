@@ -1,0 +1,37 @@
+Forms:
+----------
+- Hospiatls name *
+- Hospiatl Type *
+- Mobile *
+- Phone 
+- Mail_id *
+- Alter Mail_id
+- Website url
+- Hospiatl Reg govt id 
+- Logo
+- Country
+- State
+- District
+- City
+- Location
+- Pincode
+- Hospiatl fill address * (get latitude, longitude using address)
+- Geo Location Details (latitude, longitude) -> button click -> current location.
+- Ambulance - (yes / no) -> radio button (no -> null, yes -> get details) *
+Ambulance Form :
+----------------
+- Ambulance Name *
+- Type (private or govt) *
+- Under Hospiatl (yes or No) -> yes -> Hospiatls List (select) *
+- Mobile (Hospiatl / Ambulance Driver) *
+- Phone
+- Country
+- State
+- District
+- City
+- Location
+- Pincode
+- Geo Location Details (latitude, longitude) -> button click -> current location. *
+- Ambulance Images
+- Vehical Reg Number *
+- Upload Vehical Documents - Ambulance will allowed after verified documents. 
