@@ -18,6 +18,7 @@ Forms:
 - Hospiatl fill address * (get latitude, longitude using address)
 - Geo Location Details (latitude, longitude) -> button click -> current location.
 - Ambulance - (yes / no) -> radio button (no -> null, yes -> get details) *
+
 Ambulance Form :
 ----------------
 - Ambulance Name *
