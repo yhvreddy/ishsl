@@ -31,8 +31,8 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-left navbar-brand-wrapper d-flex align-items-center justify-content-between">
-        <a class="navbar-brand brand-logo" href="index.php"><img src="../assets/images/logo.svg" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="index.php"><img src="../assets/images/logo-mini.svg" alt="logo"/></a> 
+        <a class="navbar-brand brand-logo" href="../index.php"><img src="../assets/images/logo.svg" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="../index.php"><img src="../assets/images/logo-mini.svg" alt="logo"/></a> 
         <button class="navbar-toggler align-self-center" type="button" data-toggle="minimize">
         <span class="mdi mdi-menu"></span>
         </button>
@@ -53,24 +53,6 @@
                 <input type="text" class="form-control" placeholder="Type to search..." aria-label="search" aria-describedby="search">
               </div>
             </li>
-
-
-            <li class="nav-item  dropdown d-none align-items-center d-lg-flex d-none">
-              <a class="dropdown-toggle btn btn-outline-secondary btn-fw"  href="#" data-toggle="dropdown" id="pagesDropdown">
-                <span class="nav-profile-name">Pages</span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="pagesDropdown">
-                <a class="dropdown-item">
-                <i class="mdi mdi-settings text-primary"></i>
-                Settings
-                </a>
-                <a class="dropdown-item">
-                <i class="mdi mdi-logout text-primary"></i>
-                Logout
-                </a>
-              </div>
-            </li>
-
 
             <li class="nav-item dropdown">
               <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-toggle="dropdown">
@@ -170,10 +152,29 @@
               </div>
             </li>
             
-            <li class="nav-item nav-user-icon">
-              <a class="nav-link" href="#">
-                <img src="https://via.placeholder.com/37x37" alt="profile"/> Login user
+            <li class="nav-item dropdown nav-user-icon">
+              <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="userAuthDropdown" href="#" data-toggle="dropdown">
+                <img src="https://via.placeholder.com/37x37" alt="profile"/>
               </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="userAuthDropdown">
+                <p class="mb-0 font-weight-normal float-left dropdown-header pt-2 pb-2">Login user Name</p>
+                <a class="dropdown-item preview-item" href="javascript:(0);">
+                  <div class="preview-item-content flex-grow">
+                    <h6 class="preview-subject ellipsis font-weight-normal pb-0 mb-0">
+                      <i class="mdi mdi-account"></i>
+                      Profile
+                    </h6>
+                  </div>
+                </a>
+                <a class="dropdown-item preview-item" href="javascript:(0);">
+                  <div class="preview-item-content flex-grow">
+                    <h6 class="preview-subject ellipsis font-weight-normal pb-0 mb-0">
+                      <i class="mdi mdi-logout"></i>
+                      Login Out
+                    </h6>
+                  </div>
+                </a>
+              </div>
             </li>
             <li class="nav-item nav-settings d-none d-lg-flex">
               <a class="nav-link" href="#">
