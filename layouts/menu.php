@@ -40,8 +40,8 @@
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item"> <a class="nav-link" href="#">New Hospital</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#">Hospitals List</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Hospital Types</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Hospital Specialization's</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="../hospital/hospital_types.php">Hospital Types</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="../hospital/specialization_types.php">Hospital Specialization's</a></li>
                     <li class=""></li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item"> <a class="nav-link" href="#">New Blood Bank</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#">Blood Banks List</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Blood Groups</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="../bloodbank/bloodgroup_types.php">Blood Groups</a></li>
                 </ul>
             </div>
         </li>
@@ -86,7 +86,7 @@
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item"> <a class="nav-link" href="#">New Ambulance</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#">Ambulance's List</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Ambulance Types</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="../ambulance/ambulance_types.php">Ambulance Types</a></li>
                 </ul>
             </div>
         </li>
@@ -101,8 +101,8 @@
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item"> <a class="nav-link" href="#">New Charity</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#">Charity List</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Charity Types</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Donation's Types</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="../charity/charity_types.php">Charity Types</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="../charity/donations_types.php">Donation's Types</a></li>
                 </ul>
             </div>
         </li>
